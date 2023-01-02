@@ -10,7 +10,7 @@ function set_error(element, msg) {
 
 function redirect(url){
     const link = document.createElement("a");
-    link.href = window.location.origin+url;
+    link.href = window.location.origin+"login_form/"+url;
     link.click();
 }
 
